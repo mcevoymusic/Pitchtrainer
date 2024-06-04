@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Zetta&display=swap');
+
+body {
+    font-family: 'Lexend Zetta', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #000000; /* Background color set to black */
+    margin: 0;
+    color: #FFFFFF; /* Text color set to white */
+}
+
+.container {
+    text-align: center;
+    background-color: #000000; /* Background color set to black */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1); /* Shadow color updated */
+}
+
+#startButton {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-bottom: 20px;
+    background-color: #FFFFFF; /* Button background color set to white */
+    color: #000000; /* Button text color set to black */
+}
+
+#pitchDisplay, #noteDisplay {
+    font-size: 24px;
+    margin-top: 10px;
+    color: #FFFFFF; /* Text color set to white */
+}
+
+#pitchChart {
+    margin-top: 20px;
+}
